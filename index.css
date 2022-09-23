@@ -1,8 +1,35 @@
 body{
+    cursor: url(Data_Sciencia__icon.ico), auto;
     background-color: black;
     color: white;
 }
-img{
+#id__logo img{
     margin: auto;
     display: block;
+}
+
+#id__a_download_datasciencia_sourceforge{
+    width: 100%;
+    text-align: center;
+}
+
+#id__a_download_datasciencia_sourceforge a{
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    border-radius: 26px;
+    background-color: yellowgreen;
+    padding: 6px;
+    color: black;
+}
+
+#id__a_download_datasciencia_sourceforge a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    border-radius: 26px;
+    background-color: greenyellow;
+    padding: 6px;
+    color: black;
+    
 }
