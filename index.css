@@ -3,6 +3,13 @@ body{
     background-color: black;
     color: white;
 }
+
+legend{
+    font-style: italic;
+    border: 2px solid palevioletred;
+    padding: 2px;
+}
+
 #id__logo img{
     margin: auto;
     display: block;
@@ -22,7 +29,7 @@ body{
     color: black;
 }
 
-#id__a_download_datasciencia_sourceforge a{
+#id__a_download_datasciencia_sourceforge a:hover{
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -32,4 +39,27 @@ body{
     padding: 6px;
     color: black;
     
+}
+
+.div__datascience_external_resources{
+    text-align: center;
+}
+
+.div__datascience_external_resources small{
+    text-align: justify !important;
+    color: grey;
+}
+
+.img__ds_ext_rs__rec{
+    border: 2px dotted blue;
+    padding: 6px;
+    width: 100px;
+    height: 50px;
+}
+
+.img__ds_ext_rs__sq{
+    border: 2px dotted blue;
+    padding: 6px;
+    width: 50px;
+    height: 50px;
 }
